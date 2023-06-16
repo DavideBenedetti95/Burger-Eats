@@ -46,9 +46,9 @@ const Navbar = () => {
             </div>
 
             {/* SearchBar */}
-            <div className="bg-gray-200 rounded-full flex items-center w-[130px] sm:w-[400px] lg:w-[500px] mr-1">
-                <AiOutlineSearch size={25} className="sm:ml-2"/>
-                <input className="bg-transparent p-2 focus:outline-none" type="text" placeholder="Search Burger..." />
+            <div className="bg-gray-200 rounded-full flex items-center py-1 lg:w-[500px] mr-1">
+                <AiOutlineSearch size={25} className="ml-2"/>
+                <input className="bg-transparent pl-2 py-2 focus:outline-none w-[130px]" type="text" placeholder="Search Burger..." />
             </div>
             {/* Cart */}
             <button className="bg-black text-orange-500 hidden md:flex items-center py-2 rounded-full">
